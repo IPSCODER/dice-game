@@ -2,8 +2,8 @@ let player1 = 0;
 let player2 = 0;
 
 // for player name
-let player01 = prompt();
-let player02 = prompt();
+let player01 = prompt("player1 name");
+let player02 = prompt("player2 name");
 document.getElementById("player01").innerHTML = player01;
 document.getElementById("player02").innerHTML = player02;
 // end
